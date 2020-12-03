@@ -9,5 +9,6 @@ import (
 func main() {
 	fmt.Println("Advent of Code")
 	fmt.Println("   0xffff&2020")
-	fmt.Println(S.D01FirstHalf())
+	fmt.Printf("--- Day 1: Report Repair---\nYour puzzle answer was %d\n", S.D01FirstHalf())
+	fmt.Printf("--- Part Two ---\nYour puzzle answer was %d\n", S.D01SecondHalf())
 }
